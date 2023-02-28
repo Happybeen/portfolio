@@ -1,0 +1,224 @@
+@media (max-width: 767px) {
+
+  /* Default CSS */
+
+  section {
+    padding: 2rem 1.5rem;
+  }
+
+  /* Common CSS */ 
+
+  .headline--share {
+    margin-bottom: 3rem;
+  }
+
+  .headline--share p {
+    font-size: 1.8rem;
+  }
+
+  .headline--share p span {
+    font-size: 2rem;
+  }
+
+  /* header */
+
+  .header--inner {
+    width: 100%;
+  }
+
+  .logo {
+    float: right;
+  }
+
+  .gnb {
+    padding: 7rem 0 0 1rem;
+    position: fixed;
+    top: 0;
+    left: -40rem;
+    float: none;
+    width: 25rem;
+    height: 100vh;
+    background-color: rgb(102, 102, 102);
+    box-shadow: 0.3rem 0 0.3rem rgba(255, 255, 255, 0.15);
+    transition: 0.3s;
+  }
+
+  .gnb.active {
+    left: 0;
+  }
+
+  .gnb a {
+    display: block;
+  }
+
+  /* Trigger */
+
+  .trigger {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.6rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .trigger:before {
+    content: '\e91c';
+    font-family: xeicon;
+    color: #fff;
+  }
+
+  .trigger.active:before {
+    content: '\e9af';
+  }
+
+  /* Section : welcome */
+
+  .intro--heading {
+    width: 100%;
+  }
+
+  .intro--heading h1 {
+    font-size: 3.5rem;
+  }
+
+  .intro--heading p {
+    font-size: 6rem;
+  }
+
+  .intro--heading #typing {
+    font-size: 2.4rem;
+  }
+
+  /* Section : about */
+
+  .about--inner {
+    width: 100%;
+  }
+
+  .about--content .about--desc .about--intro {
+    font-size: 2rem;
+  }
+
+  .about--content .about--desc .about--main {
+    font-size: 1.8rem;
+  }
+
+  .about--content .about--desc .study--experience {
+    font-size: 1.6rem;
+  }
+
+  .about--content .about--desc .study--experience i,
+  .about--content .about--desc .about--tool {
+    font-size: 1.8rem;
+  }
+
+  /* Section : skill */
+
+  .skill--inner {
+    width: 100%;
+  }
+
+  .skill--point .skill--desc p {
+    font-size: 1.4rem;
+    letter-spacing: -0.02rem;
+  }
+
+  /* Section : website */
+
+  .website--inner {
+    width: 100%;
+  }
+
+  .website--contents {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .website--item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    height: 100%;
+  }
+
+  .website--item > div {
+    width: 100%;
+  }
+
+  .website--contents .website--item > div:nth-of-type(odd) {
+    float: none;
+  }
+  
+  .website--contents .website--item > div:nth-of-type(even) {
+    float: none;
+  }
+
+  /* desktop & mobile common */
+
+  .website--item .website--project .desktop .screenshot {
+    width: 80%;
+  }
+
+  /* website--desc */
+
+  .website--contents:nth-of-type(2) .website--desc {
+    order: 2;
+  }
+
+  .website--desc .website--desc--top .title {
+    font-size: 2.4rem;
+  }
+
+  .website--desc .website--desc--top .subtitle {
+    margin: 1.2rem 0;
+    font-size: 1.8rem;
+  }
+
+  .website--desc .website--desc--top hr {
+    margin: 1.2rem 0;
+  }
+
+  .website--desc .website--desc--top p {
+    font-size: 1.6rem;
+  }
+
+  .website--desc .website--desc--bottom ul {
+    margin: 2rem 0;
+  }
+
+  .website--desc .website--desc--bottom ul span {
+    font-size: 1.8rem;
+  }
+
+  .website--desc .website--desc--bottom ul span:nth-child(1) {
+    width: 10rem;
+  }
+
+  /* Section : epilogue */
+
+  .epilogue--inner {
+    width: 100%;
+  }
+
+  .epilogue .address {
+    float: none;
+    text-align: center;
+  }
+
+  .epilogue .footer--nav {
+    display: none;
+  }
+
+  .address .copyright {
+    font-size: 1.6rem;
+  }
+
+  .address .copyright span {
+    font-size: 2rem;
+  }
+
+}

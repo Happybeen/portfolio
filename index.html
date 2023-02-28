@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Featherlight js -->
+  <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-latest.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js"></script>
+
+  <!-- TypeIt -->
+  <script src="plugin/typeit.min.js"></script>
+
+  <!-- Wow Scroll Reveal Animation -->
+  <script src="plugin/wow.min.js"></script>
+
+  <!-- Custom CSS & JS -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="custom.js"></script>
+
+  <title>박진호 2022년 포트폴리오</title>
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- Header -->
+
+    <header>
+      <div class="header--inner">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="로고 이미지"></a>
+        </div>
+        <div class="gnb">
+          <a href="#intro">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skill</a>
+          <a href="#website">Website</a>
+          <a href="#epilogue">Epilogue</a>
+        </div>
+      </div>
+      <div class="trigger"></div>
+    </header>
+
+    <!-- Section : intro -->
+
+    <section id="intro" class="intro">
+      <div class="intro--heading">
+        <h1>Welcome</h1>
+        <p>Park's PORTFOLIO</p>
+        <em id="typing"></em>
+      </div>
+      <div class="mouse">
+        <div class="wheele"></div>
+      </div>
+      <div class="scroll">
+        <div class="scroll-arrow">
+          <div class="scroll--div">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="scroll--div">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <span class="scroll--text">CLICK</span>
+
+    </section>
+
+    <!-- Section : about -->
+
+    <section id="about" class="about">
+      <div class="about--inner">
+        <div class="headline--share">
+          <h1>About Me</h1>
+          <p><span>웹 퍼블리셔</span>가 되고자 하는 저를 소개합니다</p>
+        </div>
+        <div class="about--content">
+          <div class="about--desc">
+            <h2 class="about--intro">UI/UX Designer</h2>
+            <p class="about--main">
+              안녕하세요. 박진호입니다. 꾸준히 배우고 노력하며 배움의 자세를 가지며 <br>
+              퍼블리셔로서, 책임감 있는 웹 퍼블리셔가 되겠습니다.
+            </p>
+            <hr>
+            <ul class="study--experience">
+              <li><i class="xi-check-circle-o"></i> 박진호 Jinho Ho Park</li>
+              <li><i class="xi-check-circle-o"></i> 21.11 ~ 22.03 스마트기기 UIUX 디자인(앱/웹디자인)취업과정 작업수료</li>
+              <li><i class="xi-check-circle-o"></i> 21.03 GTQ그래픽기술자격 1급 합격</li>
+              <li><i class="xi-check-circle-o"></i> 20.02 신구대학교 졸업</li>
+              <li><i class="xi-check-circle-o"></i> 모든 사용자들이 불편함 없이 웹사이트를 이용할 수 있도록 웹접근성을 지켜려고 준수합니다.</li>
+              <li><i class="xi-check-circle-o"></i> 모든 브라우저에서 동일하게 사용 가능하도록 크로스브라우징을 지키려고 노력합니다.</li>
+            </ul>
+            <hr>
+            <p class="about--tool">Tool : HTML, CSS, JAVASCRIPT, JQUERY, FIGMA, PHOTOSHOP, ILLUSTRATOR</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section : skill -->
+
+    <section id="skill" class="skill">
+      <div class="skill--inner">
+        <div class="headline--share">
+          <h1>Skill</h1>
+          <p><span>웹 퍼블리셔</span>가 되고자 하는 저의 능력입니다</p>
+        </div>
+        <div class="skill--content">
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="html" class="skill--study">HTML</div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                웹 표준과 웹 접근성을 준수하는 HTML 정보 구조설계로 웹사이트 퍼블리싱을 해오고 있습니다.
+                웹사이트를 퍼블리싱 하기 전에 미리 사이트 사용 목적, 클래스 네임 구성, HTML 와이어프레임까지 미리 정리해 놓고 체계적인 퍼블리싱 작업을 수행합니다.
+              </p>
+            </div>
+          </div>
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="css" class="skill--study">CSS</div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                퍼블리싱 작업을 하면서 크로스브라우징(Cross Browsing)의 중요성을 생각하면서 안정적인 CSS 속성을 하용하며 HTML 구성요소를 배치하고 디자인을 합니다.
+                SASS(SCSS)를 사용하여 간단한 예제를 만들 수 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="js" class="skill--study">Javascript</div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                탭 메뉴, 네비게이션 등 웹 퍼블리싱을 하는데 꼭 필요한 제이쿼리를 활용합니다. if 조건문, for 반복문 등 필수적인 자바스크립트 활용이 가능합니다. 주로 제이쿼리와 병행해서
+                사용합니다.
+              </p>
+            </div>
+          </div>
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="responsive" class="skill--study">
+                Responsive<br> Web
+              </div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                반응형 웹 제작에 있어서 기존 방식인 Float, Position, Media Query를 활용한 반응형 웹 제작 경험을 가지고 있습니다. 또한, 대부분 기존 방식으로 작업하지만,
+                Flex와 Grid 방식을 활용하여 반응형 웹 사이트 제작도 가능합니다.
+              </p>
+            </div>
+          </div>
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="design" class="skill--study">
+                Design Program
+              </div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                웹사이트를 구성하는 배너 디자인 및 웹 UI 디자인 작업을 위해 포토샵과 일러스트레이터 작업을 해본 적이 있습니다. 피그마의 경우 프로토타입을 제작한 경우가 있으며, 웹과 모바일 버전의
+                디자인을 만들어 경험이 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="skill--point">
+            <div class="skill--item">
+              <div id="text" class="skill--study">
+                Text Editor
+              </div>
+            </div>
+            <div class="skill--desc">
+              <p>
+                퍼블리싱을 하면서 주로 사용한 텍스트에디터는 Visual Studio Code입니다. 필요에 따라 Adobe Bracket를 병행해서 사용합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section : website -->
+
+    <section id="website" class="website">
+      <div class="website--inner">
+        <div class="headline--share">
+          <h1>Website</h1>
+          <p><span>웹 퍼블리셔</span> 공부를 하는 저의 지난 흔적입니다</p>
+        </div>
+        <div class="website--contents">
+          <div class="website--item seven">
+            <div class="website--project ltr wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/seveneleven/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--seveneleven--desktop.png" alt="세븐일레븐 리디자인 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+              </div>
+            </div>
+            <div class="website--desc rtl wow">
+              <div class="website--desc--top">
+                <strong class="title website--title01">7-eleven</strong>
+                <span class="subtitle website--subtitle01">세븐일레븐 리디자인</span>
+                <hr>
+                <p>
+                  기존 세븐일레븐 메인사이트를 리디자인하였습니다.
+                  실시간 랭킹 컨텐츠 및 탭 메뉴 등의 자바스크립트를 활용했습니다.
+                  메인페이지에 탭 메뉴를 이용하여 유저가 빠르게 웹사이트를
+                  활용하여 어떤 제품이 있는지 확인할 수 있도록 하였습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list01">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Redesign</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY), FIGMA</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn" href="https://www.figma.com/file/ekbMx1RZW7ERz2HT4IXovB/portpolio2?node-id=0%3A1"
+                    target="_blank">
+                    Figma Wireframes
+                  </a>
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/seveneleven/index.html"
+                    data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.7-eleven.co.kr" data-featherlight="iframe">
+                    Original
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="website--item subway">
+            <div class="website--desc ltr wow">
+              <div class="website--desc--top">
+                <strong class="title website--title02">Subway</strong>
+                <span class="subtitle website--subtitle02">서브웨이 클론코딩</span>
+                <hr>
+                <p>
+                  기존 서브웨이 메인사이트를 클론코딩 하였습니다.
+                  탭 메뉴 및 아코디언 등의 자바스크립트를 활용했습니다.
+                  변수를 활용하여 자주 쓰는 color를 효율적으로 썼습니다.
+                  table 태그를 활용하여 표 컨텐츠를 제작했습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list02">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Clone coding</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main + Sub 5 pages</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY)</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/project_subway/index.html"
+                    data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.subway.co.kr" target="_blank">
+                    Original
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="website--project rtl wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/project_subway/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--subway--desktop.png" alt="서브웨이 리디자인 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="website--item seoul">
+            <div class="website--project ltr wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/seoulcity/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--seoulcity--desktop.png" alt="서울특별시 클론코딩 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+                <div class="mockup mobile">
+                  <div class="screenshot">
+                    <img src="images/website--seoulcity--mobile.png" alt="서울특별시 클론코딩 웹사이트 모바일버전">
+                  </div>
+                  <div class="frame mobile"></div>
+                </div>
+              </div>
+            </div>
+            <div class="website--desc rtl wow">
+              <div class="website--desc--top">
+                <strong class="title website--title03">Seoulcity</strong>
+                <span class="subtitle website--subtitle03">서울특별시 클론코딩</span>
+                <hr>
+                <p>
+                  기존 서울특별시 메인사이트를 리디자인하였습니다.
+                  form 태그를 이용하여 검색창을 제작하였습니다.
+                  반응형 웹을 만들어 모바일버전에서도 웹페이지를 볼 수 있게 하였습니다.
+                  마우스를 hover하면 이미지가 반응할 수 있도록 transform을 부여했습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list03">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Clone coding</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY)</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn"
+                    href="https://www.figma.com/file/MnNSdDvSQFYGjmnqngZkek/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%B2%AD"
+                    target="_blank">
+                    Figma Wireframes
+                  </a>
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/seoulcity/index.html" data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.seoul.go.kr/main/index.jsp" data-featherlight="iframe">
+                    Original
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="website--item library">
+            <div class="website--desc ltr wow">
+              <div class="website--desc--top">
+                <strong class="title website--title04">성남시 해오름도서관</strong>
+                <span class="subtitle website--subtitle04">성남시 해오름도서관 리디자인</span>
+                <hr>
+                <p>
+                  기존 성남시 해오름도서관 메인사이트를 리디자인하였습니다.
+                  실시간 랭킹 컨텐츠 및 탭 메뉴 등의 자바스크립트를 활용했습니다.
+                  form 태그를 이용하여 검색창을 제작하였습니다.
+                  반응형 웹을 만들어 모바일버전에서도 웹페이지를 볼 수 있게 하였습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list04">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Redesign</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY)</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/seongnamlibrary/index.html"
+                    data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.snlib.go.kr/hor/index.do" data-featherlight="iframe">
+                    Original
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="website--project rtl wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/seongnamlibrary/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--library--desktop.png" alt="성남시 해오름도서관 클론코딩 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+                <div class="mockup mobile">
+                  <div class="screenshot">
+                    <img src="images/website--library--mobile.png" alt="성남시 해오름도서관 클론코딩 웹사이트 모바일버전">
+                  </div>
+                  <div class="frame mobile"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="website--item enchantenter">
+            <div class="website--project ltr wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/enchantenter/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--enchantenter--desktop.png" alt="인챈트 엔터테인먼트 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+                <div class="mockup mobile">
+                  <div class="screenshot">
+                    <img src="images/website--enchantenter--mobile.png" alt="인챈트 엔터테인먼트 웹사이트 모바일버전">
+                  </div>
+                  <div class="frame mobile"></div>
+                </div>
+              </div>
+            </div>
+            <div class="website--desc rtl wow">
+              <div class="website--desc--top">
+                <strong class="title website--title05">enchantenter</strong>
+                <span class="subtitle website--subtitle05">인챈트 엔터테인먼트 리디자인</span>
+                <hr>
+                <p>
+                  기존 인챈트 엔터테인먼트 메인사이트를 리디자인하였습니다.
+                  다른 제작물과 다르게 영상 배너를 사용했습니다.
+                  PC버전, 태블릿버전, 모바일 버전 화면을 구현했습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list05">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Redesign</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY)</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/enchantenter/index.html"
+                    data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.enchantenter.co.kr" target="_blank">
+                    Original
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="website--item guitar">
+            <div class="website--desc ltr wow">
+              <div class="website--desc--top">
+                <strong class="title website--title06">Grab the Guitar</strong>
+                <span class="subtitle website--subtitle04">Grab the Guitar 리디자인</span>
+                <hr>
+                <p>
+                  기존 그랩더기타 메인사이트를 리디자인하였습니다.
+                  SASS를 활용하였습니다.
+                  반응영 웹을 만들어 모바일버전, 태블릿버전에서도 웹페이지를 볼 수 있게 하였습니다.
+                </p>
+              </div>
+
+              <div class="website--desc--bottom">
+                <ul class="website--desc--list06">
+                  <li>
+                    <span>TYPE</span>
+                    <span>Redesign</span>
+                  </li>
+                  <li>
+                    <span>PAGES</span>
+                    <span>Main, Login</span>
+                  </li>
+                  <li>
+                    <span>특징</span>
+                    <span>HTML, CSS, JS(JQUERY), SASS(SCSS)</span>
+                  </li>
+                  <li>
+                    <span>참여도</span>
+                    <span>100%(개인 작업)</span>
+                  </li>
+                </ul>
+                <div class="website--more">
+                  <a class="btn"
+                    href="https://www.figma.com/file/2HUGoCBr4DB5nuO8pgdA8z/%EA%B7%B8%EB%9E%A9%EB%8D%94%EA%B8%B0%ED%83%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0%3A1&t=jfLQCTlq5on1nlWs-1"
+                    target="_blank">
+                    Figma Wireframes
+                  </a>
+                  <a class="btn" href="http://friendcj98.dothome.co.kr/grabtheguitar/index.html"
+                    data-featherlight="iframe">
+                    Web Prototype
+                  </a>
+                  <a class="btn" href="https://www.grabtheguitar.com" data-featherlight="iframe">
+                    Original
+                  </a>
+                  <a class="btn" href="https://www.notion.so/WebProject-Planning-727947a1767e4889929afc9d137a3634?pvs=4">
+                    기획서
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="website--project rtl wow"
+              onclick="javascript:location.href='http://friendcj98.dothome.co.kr/grabtheguitar/index.html'">
+              <div class="mockup--all">
+                <div class="mockup desktop">
+                  <div class="screenshot">
+                    <img src="images/website--grabtheguitar--pc.png" alt="그랩더기타 웹사이트 pc버전">
+                  </div>
+                  <div class="frame desktop"></div>
+                </div>
+                <div class="mockup mobile">
+                  <div class="screenshot">
+                    <img src="images/website--grabtheguitar--mobile.png" alt="그랩더기타 웹사이트 모바일버전">
+                  </div>
+                  <div class="frame mobile"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="design" class="design">
+      <div class="website--inner">
+        <div class="headline--share">
+          <h1>Design</h1>
+          <p><span>디자인</span> 공부를 하는 저의 지난 흔적입니다</p>
+        </div>
+        <div class="design--projects">
+          <div class="design--contents banner">
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/banner/01 - WELLAGE.png"><img src="images/design/banner/01 - WELLAGE.png" alt="배너 디자인01"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/banner/02 - mcdonalds.png"><img src="images/design/banner/02 - mcdonalds.png" alt="배너 디자인02"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/banner/03 - burgerking.png"><img src="images/design/banner/03 - burgerking.png" alt="배너 디자인03"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/banner/04 - bringreen.png"><img src="images/design/banner/04 - bringreen.png" alt="배너 디자인04"></a>
+            </div>
+          </div>
+          <div class="design--contents sns">
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/sns/01 - megacoffee.png"><img src="images/design/sns/01 - megacoffee.png" alt="sns 디자인01"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/sns/02 - chim.png"><img src="images/design/sns/02 - chim.png" alt="sns 디자인02"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/sns/03 - teazen.png"><img src="images/design/sns/03 - teazen.png" alt="sns 디자인03"></a>
+            </div>
+            <div class="design--item">
+              <a href="#none" data-featherlight="images/design/sns/04 - haagendazs.png"><img src="images/design/sns/04 - haagendazs.png" alt="sns 디자인04"></a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section : epilogue -->
+
+    <section id="epilogue" class="epilogue">
+      <h3 class="hidden">에필로그</h3>
+      <div class="epilogue--inner">
+        <div class="address">
+          <p class="copyright">
+            Copyright Jinho Park All right reserved. Designed by <span>Jinho Park</span>
+          </p>
+          <p class="designer">
+            대표자: 박진호 | 전화번호 : 010-2172-1542 | 이메일: friendcj98@naver.com
+          </p>
+        </div>
+        <div class="gnb">
+          <a href="#intro">Home</a>
+          <a href="#about">About</a>
+          <a href="#skill">Skill</a>
+          <a href="#website">Website</a>
+          <a href="#epilogue">Epilogue</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <a class="btn--top" href="#"><i class="xi-angle-up-thin"></i></a>
+</body>
+
+</html>
